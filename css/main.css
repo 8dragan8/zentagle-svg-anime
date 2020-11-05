@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 20px;
+    color: rgb(255, 0, 13);
+}
+
+.grid{
+    stroke: rgb(175, 175, 175);
+    stroke-width: 1090px;
+    stroke-dasharray: 1 9;
+    /* stroke-dashoffset: 5; */
+    
+    
+}
+
+.linija:hover{
+    
+    /* stroke: rgb(11, 41, 31); */
+    stroke: red;
+    fill: rgb(85, 15, 102);
+    stroke-dashoffset: 0;
+    /* stroke-dasharray: 40 100 40 100; */
+}
+
+.stranice{
+
+    /* stroke-dasharray: 10% 5%; */
+    /* stroke-dashoffset: 103%; */
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    
+}
+
+.svg-cointainer{
+    display: flex;
+    flex-flow: wrap;
+    /* margin-left: auto;  */
+    /* margin-right: auto; */
+
+    /* width: 80%; */
+    margin-top: 10px;
+    /* border: solid 2px black; */
+    justify-items: center;
+    align-items: center;
+}
+
+.artboard {
+    display: flex;
+    /* position: relative; */
+
+    width: 19.7vw;
+    height: 19.7vw;
+    /* width: 19.4vw;
+    height: 19.4vw; */
+    background-color: rgb(255, 255, 255);
+
+}
+
+svg{
+    display: flex;
+    width: 100%;
+    stroke-dashoffset: 23px;
+}
+
+
+.str-a {
+    stroke: rgb(148, 31, 31);
+    stroke-width: 2px;
+        fill: none;
+
+
+}
+
+.tackeLabel {
+    font-weight: bold;
+}
